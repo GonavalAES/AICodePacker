@@ -17,9 +17,9 @@ Build & Run
 
 ## Open AICodePacker.sln in Visual Studio 2026 and press F5, or from the command line:
 
-bash
-dotnet build
-dotnet run --project AICodePacker
+- bash
+- dotnet build
+- dotnet run --project AICodePacker
 
 ## Usage
 1. Browse to a solution folder. Matching files appear in 'Available Files'.
