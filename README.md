@@ -37,15 +37,6 @@ Each file is wrapped like this, so an AI reading the compiled output can tell wh
 ...file contents...
 == END OF MyProject\Form1.cs ==
 
-## Project structure
-AICodePacker/
-├── AICodePacker.csproj
-├── Program.cs
-├── Form1.cs              # UI logic
-├── Form1.Designer.cs     # Generated layout
-└── Model/
-    └── SourceFile.cs      # Full path + relative path per list entry
-
 ## Notes
 The 'Available Files' list always reflects a live scan of the currently browsed folder.
 Removing an item from 'Selected Files' only returns it to 'Available Files' if it belongs to the folder currently loaded, otherwise it's simply dropped, and re-browsing that original folder brings it back into view.
